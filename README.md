@@ -2,8 +2,7 @@
 
 ## Overview of the repo
 
-This repo contains scripts that run on the the ncas-cam-12 camera system. This is an automated camera system that is designed to take photos at a given 
-inteval to allow for the study of cloud systems. These scripts are all present in the /opt/scripts directory on the camera computer and are deployed as part of the ansible install routine. 
+This repository contains scripts for the ncas-cam-12 automated camera system. The system is designed to capture images at regular intervals to support the study of cloud formations. All scripts are located in the /opt/scripts directory on the camera's onboard computer and are deployed as part of the Ansible installation process.
 
 ### Scripts overview 
 
