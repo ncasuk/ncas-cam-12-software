@@ -1,0 +1,81 @@
+# This template file is intended to be used:
+#
+# - with the ExifTool handler software available from 
+#   https://github.com/dahooper/exiftool-handler
+#
+# - for version 1.0 of the NCAS-IMAGE metadata standard as applied
+#   to a photograph
+#
+# Any pre-populated fields should be left as is. All other fields must
+# be populated in accordance with both the syntax expected by the
+# ExifTool handler software and the NCAS-IMAGE metadata standard
+#
+- template_id: "teamx template"
+#
+#
+# Version of the standard being followed
+#
+- XMP-photoshop:Instructions: |
+    Metadata follow the National Centre for Atmospheric Science Image Metadata Standard v1.0: https://doi.org/10.5281/zenodo.6368295
+#
+#
+# Description of what is shown in the image
+#
+- XMP-photoshop:Headline: Photograph taken by automatic camera as part of the TeamX campaign 
+#
+- XMP-dc:Description: A photo at the top of Plose a mountain in Northern Italy as part of the (Multi-scale transport and exchange processes in the atmosphere over mountains – programme and experiment) TeamX field campaign. The camera system was co-located with the NXPOL2 Xband radar and was set to capture photos every 60 seconds to produce timelapse photography of the clouds and conditions.
+#
+#
+# Location of the camera
+#
+- XMP-iptcExt:LocationCreatedLocationName: Mount Plose, South Tyrol, Italy
+#
+- XMP-iptcExt:LocationCreatedGPSAltitude: "{gps_alt}"
+#
+- XMP-iptcExt:LocationCreatedGPSLatitude: "{gps_lat}"
+#
+- XMP-iptcExt:LocationCreatedGPSLongitude: "{gps_lon}"
+#
+#
+# Date-time details (note that XMP-xmp:MetadataDate will be populated
+# automatically by the ExifTool handler software)
+#
+- XMP-xmp:CreateDate: "{create_date}"
+#
+#
+# Licensing and Acknowledgement details 
+#
+- XMP-dc:Rights: |
+    Use of this image is covered by the (UK) Open Government Licence, http://www.nationalarchives.gov.uk/doc/open-government-licence/
+
+- XMP-xmpRights:WebStatement: |
+    http://www.nationalarchives.gov.uk/doc/open-government-licence/
+
+- XMP-photoshop:Credit: National Centre for Atmospheric Science (NCAS)
+#
+#
+# Source of the image 
+#
+- XMP-dc:Title: "{file_name}"
+
+- XMP-dc:Relation: isPartOf https://catalogue.ceda.ac.uk/uuid/51850d62aa7c4cfd94d9951dab8de307
+#
+# Instrument Scientist’s Details
+#
+- XMP-dc:Creator:
+  - Groves, James
+  - Walker, Dan
+  
+
+- XMP-iptcCore:CreatorWorkEmail: james.groves@ncas.ac.uk
+
+- XMP-iptcExt:CreatorIdentifier: https://orcid.org/0000-0002-7073-2085
+#
+#
+# Principal Investigator’s Details
+#
+- XMP-iptcExt:ContributorName: Chemel, Charles
+
+- XMP-iptcExt:ContributorIdentifier: https://orcid.org/0000-0002-6935-7177
+
+- XMP-iptcExt:ContributorRole: Project Principal Investigator
